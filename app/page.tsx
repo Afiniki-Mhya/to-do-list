@@ -8,7 +8,7 @@ import LineUpCards from "./line-up-cards";
 
 export default function Home() {
   return (
-    <main className="bg-[#E4E0E1] min-h-screen flex  overflow-y-hidden">
+    <main className="bg-[#E4E0E1] min-h-screen flex overflow-y-hidden">
   <div className="flex-1">
     <Sidebarpage />
   </div>
