@@ -3,11 +3,11 @@ import React, { useState } from 'react';
 import { AlarmClock } from 'lucide-react';
 
 const tasks = [
-  { category: 'Urgent', color: 'bg-red-500', time: '9:00AM' },
+  { category: 'Priority', color: 'bg-red-500', time: '9:00AM' },
   { category: 'Chores', color: 'bg-green-500', time: '10:30AM' },
   { category: 'Work', color: 'bg-yellow-400', time: '1:00PM' },
   { category: 'Social', color: 'bg-white', time: '7:30PM', dotBorder: 'border border-gray-300' },
-  { category: 'Urgent', color: 'bg-red-500', time: '4:00PM' },
+  { category: 'Priority', color: 'bg-red-500', time: '4:00PM' },
   { category: 'Work', color: 'bg-yellow-400', time: '2:15PM' },
   { category: 'Social', color: 'bg-white', time: '8:00PM', dotBorder: 'border border-gray-300' },
 ];

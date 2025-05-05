@@ -1,3 +1,4 @@
+import { gsap } from "gsap";
 import { Search } from "lucide-react";
 import Image from "next/image";
 import Sidebarpage from "./sidebar/page";
@@ -32,12 +33,12 @@ export default function Home() {
        <HeroCardPage />
      </span>
 
-     <div className="pb-4">
-     <h1 className="text-[#3F2305] font-bold pb- ">Line Ups:</h1>
+     <div className="-mb-80 ">
+     <h1 className="text-[#3F2305] font-bold  ">Line Ups:</h1>
       <LineUpCards />
      </div>
 
-     <div>
+     <div className="-mb-[180%] ">
       <h1 className="text-[#3F2305] font-bold pb- ">Routine Tasks:</h1>
       <RoutineCards />
      </div>
